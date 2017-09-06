@@ -49,11 +49,11 @@ EOF
 
 cat << EOF > $CLIENT_PATH/client_source.tcsh
 #! /bin/tcsh
-setenv PATH ${CLIENT_PATH}/bin:\${PATH}"
+setenv PATH "${CLIENT_PATH}/bin:\${PATH}"
 echo "All set."
 echo "Please, refer to:"
 echo "https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCMSConnect#Using_the_Connect_client"
 echo "for the documentation."
 EOF
 
-echo -e "- All done. To use the client, just:\n\n source \~/software/connect-client/client_source.sh\n (or tcsh, depending on your SHELL)."
+echo -e "- All done. To use the client, just:\n\n source ~/software/connect-client/client_source.sh\n (or tcsh, depending on your SHELL)."
