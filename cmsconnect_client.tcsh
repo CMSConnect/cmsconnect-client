@@ -13,7 +13,9 @@ source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/current/init/tcsh
 module load connect-client
 
 echo "All set. You can type:"
-echo -e "connect setup \<username\>@login.uscms.org\n"
+echo
+echo "connect setup <username>@login.uscms.org"
+echo
 echo "to setup your account"
 echo "Please, refer to:"
 echo "https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCMSConnect#Using_the_Connect_client"
